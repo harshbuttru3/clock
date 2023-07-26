@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <title>Clock</title>
+</head>
+<body>
+    <div id="main">
+        <div id="clockContainer">
+            <h1 id="time">12:00:00</h1>
+           
+        </div>
+
+        <div id="alarm">
+            <h2 class="alarmItem">Alarm</h2>
+            <input type="time" id="timeInput" class="alarmItem">
+            <button class="alarmItem" onclick="setAlarm()" >Set Alarm</button>
+            <button class="alarmItem" onclick="stopAlarm()" >Stop Alarm</button>
+        </div>
+        <div id="display">  </div>
+        <audio id="audio" type="mp3/audio"  src="twirling-intime-lenovo-k8-note-alarm-tone-41440.mp3">audio </audio>
+    </div>
+
+  
+
+    <script src="clock.js"></script>
+</body>
+</html>
